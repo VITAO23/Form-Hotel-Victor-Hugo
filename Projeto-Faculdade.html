@@ -12,9 +12,7 @@
         <div>
             <center>
                 <h1>PROJETO HTML </h1>
-                <p>202108664014</p>
             </center>
-            <hr>
             <ul>
                 <li>
                     <a href="#">Home</a>
@@ -31,36 +29,37 @@
             </ul>
         </div>
     </nav>
-    <hr>
     <main>
+        
         <section>
-            <div>
-              
-                <ol>
-                    <li>
-                        <a href="#">teste</a>
-                    </li>
-                    <li>
-                        <a href="#">teste</a>
-                    </li>
-                    <li>
-                        <a href="#">teste</a>
-                    </li>
-                    <li>
-                        <a href="#">teste</a>
-                    </li>
-                </ol>
-            </div>
-            <hr>
+            <form>
+                <h2>Formulário</h2>
+                <label>Nome: </label><input type="text" placeholder="Seu Nome"><br><br>
+                <label>Data: </label><input type="date" placeholder="Nascimento"><br><br>
+                <label>Sexo: </label>
+                <select name="select">
+                    <option value="1">selecione</option>
+                    <option value="2" selected>Masculino</option>
+                    <option value="3">Feminino</option>
+                </select>
+                <br><br>
+                <label>Email: </label><input type="email" placeholder="Email"><br><br>
+                <label>Senha: </label><input type="password" placeholder="Senha"><br><br>
+                <button>Enviar</button><br>
+                <label>Deseja receber informaçoes sobre sua hospedagem: </label><br>
+                <input type="checkbox"><label>SIM</label><br>
+                <input type="checkbox"><label>NÃO</label><br>
+            </form>
         </section>
+
         <section>
             <center>
                 <table border="1|0">
                     <thead>
                         <tr>
-                            <th scope="col">Nome</th>
-                            <th scope="col">Email</th>
-                            <th scope="col">Idade</th>
+                            <th>Nome</th>
+                            <th>Email</th>
+                            <th>Idade</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -89,66 +88,32 @@
                             <td>2000</td>
                         </tr>
                     </tbody>
-                    <!-- <tfoot>
-                        <tr>
-                            <th scope="row" colspan="2">TOTAL</th>
-                            <td>88</td>
-                        </tr>
-                    </tfoot> -->
                 </table>
-                <hr>
-        </section>
-        <section>
-            <form>
-                <h2>Formulário</h2>
-                <label>Nome: </label><input type="text" placeholder="Seu Nome"><br><br>
-                <label>Data: </label><input type="date" placeholder="Nascimento"><br><br>
-                <label>Sexo: </label>
-                <select name="select">
-                    <option value="1">selecione</option>
-                    <option value="2" selected>Masculino</option>
-                    <option value="3">Feminino</option>
-                </select>
-                <br><br>
-                <label>Email: </label><input type="email" placeholder="Email"><br><br>
-                <label>Senha: </label><input type="password" placeholder="Senha"><br><br>
-                <button>Enviar</button><br>
-                <label>Deseja receber informaçoes sobre sua hospedagem: </label><br>
-                <input type="checkbox"><label>SIM</label><br>
-                <input type="checkbox"><label>NÃO</label><br>
-                <hr>
-            </form>
         </section>
         </center>
-        <div>
+        <section>
             <h2>Imagens e videos</h2>
             <h3> Links que levam para imagem de paisagem:</h3>
-            <ol>
+            <ul>
                 <li>
                     <p>Imagem dentro do projeto:</p>
-                    <a href="/img/image.png">Dentro do projeto ></a>
+                  <img width="500" height="300" src="/img/image.png">
                 </li>
                 <li>
                     <p>Imagem fora do projeto:</p>
-                    <a
-                        href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.ecycle.com.br%2Fwp-content%2Fuploads%2F2021%2F05%2F20195924%2Fo-que-e-paisagem.jpg.webp&tbnid=sU1xpQ-kiQdHSM&vet=12ahUKEwjuotSFgoOFAxUtNrkGHWkgAGEQMygBegQIARBD..i&imgrefurl=https%3A%2F%2Fwww.ecycle.com.br%2Fpaisagem%2F&docid=rOCPY8W346cEkM&w=750&h=460&q=paisagem&ved=2ahUKEwjuotSFgoOFAxUtNrkGHWkgAGEQMygBegQIARBD">Dentro
-                        do projeto ></a>
+                    <iframe width="500" height="300" src="https://youtu.be/m3M-X1HIzHM?si=zAAQD_aE5-uAGp5h"
+                        allowfullscreen></iframe>
                 </li>
-                <li>
+                <!-- <li>
                     <p>Link Video:</p>
-                    <a href="https://youtu.be/01bCZPpSQxY?si=nJcIuIyi8eiwKpu6">Link video</a>
-                </li>
-            </ol>
-            <hr>
-            <center>
-                <h3>Opção vai acessar o link com button</h3>
-                <button onclick="window.location.href='https://youtu.be/01bCZPpSQxY?si=nJcIuIyi8eiwKpu6';">Ir para o
-                    link</button>
+                    
+                </li> -->
+            </ul>
+        </section>
+        <center>
+                <button onclick="window.location.href='https://youtu.be/m3M-X1HIzHM?si=VhF6RCkDYHmlHABy';">Ir para a imagem</button>
             </center>
-        </div>
         </section>
     </main>
-
 </body>
-
 </html>
